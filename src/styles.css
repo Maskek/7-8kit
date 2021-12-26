@@ -1,0 +1,135 @@
+body {
+  background: #e3e0ae;
+  margin: 0;
+}
+
+.App {
+  display: auto;
+}
+
+.spisok {
+  font-family: sans-serif;
+  display: flex;
+}
+
+.mainhead {
+  font-size: 40px;
+  color: rgb(0, 82, 159);
+  background: rgb(169, 173, 169);
+  text-align: center;
+  padding: 5px 0px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.headrand {
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}
+
+.headfriend {
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}
+
+.users {
+  padding: 10px;
+  flex: 1;
+
+  border: 1px solid black;
+  margin: 2px;
+  background: #f7b09c;
+}
+
+.best_friends {
+  flex: 1;
+  padding: 10px;
+
+  border: 1px solid black;
+  margin: 2px;
+  background: #acf79c;
+}
+
+.userCard {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px 15px;
+
+  width: 180px;
+  height: 280px;
+
+  border: 1px solid gray;
+  border-radius: 20px;
+  text-align: center;
+
+  background: #e6e4e1;
+}
+
+.friendCard {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px 15px;
+
+  width: 180px;
+  height: 280px;
+
+  border: 1px solid gray;
+  border-radius: 20px;
+  text-align: center;
+
+  background: #cbface;
+}
+
+.list_title {
+  text-align: center;
+}
+
+.add button {
+  background: #56b851;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 170px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.add:hover button,
+.add:active button {
+  background: #41a938;
+}
+
+.remove button {
+  background: #b85151;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 170px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.remove:hover button,
+.remove:active button {
+  background: #a93838;
+}
+
+.user_avatar img {
+  border: 1px solid black;
+  border-radius: 5000px;
+}
+
+.information {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3px 0px;
+  margin: 10px 0px;
+  background: rgb(199, 221, 231);
+}
+
+.information div {
+  margin: 8px 5px;
+  border: 0.2px solid rgb(85, 207, 93);
+  border-radius: 10px;
+  background: rgb(230, 245, 163);
+}
